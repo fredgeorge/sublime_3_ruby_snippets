@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[# Copyright 2015 by Fred George. May be copied with this notice, but not used in classroom training.
+
+require 'minitest/autorun'
+require_relative '${1:${TM_FILENAME/([A-Za-z0-9_]+)(?:_test)(?:\.rb)?/\1/g}}'
+
+# Confirms behavior of SOMETHING_DUMMY
+class ${2:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.rb)?/(?2::\u$1)/g}} < Minitest::Test
+
+	def test_${3:case_name}
+		$0
+	end
+
+end]]></content>
+    <tabTrigger>tc</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>class .. &lt; Minitest::Test .. end</description>
+</snippet>
