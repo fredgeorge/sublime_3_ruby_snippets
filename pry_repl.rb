@@ -1,4 +1,4 @@
-# Code should be in ~/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/Ruby
+# Code should be in ~/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/Ruby on OS/X
 require 'rubygems'
 gem 'pry'
 require 'pry'

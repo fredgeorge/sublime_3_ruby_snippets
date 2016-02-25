@@ -2,5 +2,5 @@
     <content><![CDATA[assert_raises(${1:Exception}) { $0 }]]></content>
     <tabTrigger>asr</tabTrigger>
     <scope>source.ruby</scope>
-    <description>assert_raises(..) { .. }</description>
+    <description>FDG assert_raises(..) { .. }</description>
 </snippet>
