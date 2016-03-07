@@ -2,5 +2,5 @@
     <content><![CDATA[refute_equal(${1:unexpected}, ${0:actual})]]></content>
     <tabTrigger>rfe</tabTrigger>
     <scope>source.ruby</scope>
-    <description>refute_equal(..)</description>
+    <description>FDG refute_equal(..)</description>
 </snippet>
