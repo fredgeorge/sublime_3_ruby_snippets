@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[# Copyright 2016 by Fred George. May be copied with this notice, but not used in classroom training.
+    <content><![CDATA[# Copyright 2017 by Fred George. May be copied with this notice, but not used in classroom training.
 
 # Understands ${1:SOMETHING_DUMMY}
 class ${2:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.rb)?/(?2::\u$1)/g}}
