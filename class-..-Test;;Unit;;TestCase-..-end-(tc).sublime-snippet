@@ -1,8 +1,8 @@
 <snippet>
-    <content><![CDATA[# Copyright 2016 by Fred George. May be copied with this notice, but not used in classroom training.
+    <content><![CDATA[# Copyright 2017 by Fred George. May be copied with this notice, but not used in classroom training.
 
 require 'minitest/autorun'
-require_relative '${1:${TM_FILENAME/([A-Za-z0-9_]+)(?:_test)(?:\.rb)?/.\/\1/g}}'
+require_relative '${1:${TM_FILENAME/([A-Za-z0-9_]+)(?:_test)(?:\.rb)?/..\/lib\/\1/g}}'
 
 # Confirms behavior of ${2:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:_test)(?:\.rb)?/(?2::\u$1)/g}}
 class ${3:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.rb)?/(?2::\u$1)/g}} < Minitest::Test
